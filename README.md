@@ -219,7 +219,7 @@ Checklist:
 Requisitos:
 
 * Todo código novo deve conter testes
-* Cobertura mínima: 80% (decidiremos depois...)
+* Cobertura mínima: 90%
 * Testes devem ser automatizados
 
 Padrão:
