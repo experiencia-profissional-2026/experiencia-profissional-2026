@@ -1,0 +1,180 @@
+# .gitignore inicial. Pode ser ajustado depois se for necessario...
+
+#################################################
+# SISTEMA OPERACIONAL
+#################################################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+#################################################
+# IDEs / EDITORES
+#################################################
+
+# VSCode
+.vscode/
+
+# IntelliJ / IDEA / WebStorm / PyCharm
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+#################################################
+# LOGS E TEMPORÁRIOS
+#################################################
+
+*.log
+logs/
+*.tmp
+*.swp
+*.swo
+
+#################################################
+# VARIÁVEIS DE AMBIENTE / SEGREDOS
+#################################################
+
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.jks
+secrets/
+credentials/
+
+#################################################
+# NODE.JS / REACT
+#################################################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+dist/
+build/
+.next/
+.out/
+coverage/
+
+#################################################
+# REACT NATIVE
+#################################################
+
+.expo/
+.expo-shared/
+android/app/build/
+ios/build/
+ios/Pods/
+*.ipa
+*.apk
+
+#################################################
+# JAVA / SPRING
+#################################################
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+*.class
+*.jar
+*.war
+*.ear
+
+#################################################
+# PYTHON
+#################################################
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+venv/
+env/
+.venv/
+
+dist/
+build/
+*.egg-info/
+.coverage
+.pytest_cache/
+
+#################################################
+# TESTES / COBERTURA
+#################################################
+
+coverage/
+htmlcov/
+*.lcov
+
+#################################################
+# BANCO DE DADOS LOCAL
+#################################################
+
+*.sqlite
+*.sqlite3
+*.db
+
+#################################################
+# ARQUIVOS GRANDES / INDEVIDOS
+#################################################
+
+# Áudio
+*.mp3
+*.wav
+*.flac
+
+# Vídeo
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Imagens pesadas
+*.psd
+*.ai
+
+#################################################
+# DOCKER
+#################################################
+
+docker-compose.override.yml
+
+#################################################
+# CACHE
+#################################################
+
+.cache/
+.tmp/
